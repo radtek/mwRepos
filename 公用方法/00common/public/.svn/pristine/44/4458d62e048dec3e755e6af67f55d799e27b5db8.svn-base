@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include "stdlib.h"
+#include "SQLConnection.h"
+#include "SQLException.h"
+#include "SQLResult.h"
+#include "time.h"
+//#include "../../logmgr/LogMgr.h"
+
+using namespace ORACLE_SQLEXCEPTION_NSAMESPACE;
+using namespace ORACLE_SQLCONNECTION_NSAMESPACE;
+using namespace ORACLE_SQLRESULT_NSAMESPACE;
+using namespace ORACLE_SQLTYPES_NSAMESPACE;
+int main()
+{
+    CSQLConnection sqlconn;
+    try
+    {
+        if (sqlconn.Open("192.169.1.10", "starsl", "emp", "123456"))
+        {
+			while (1)
+			{
+				char c = '\0';
+				scanf("%c", &c);
+			}
+            char*p = new char[1024*1024];
+            memset(p, 0, 1024*1024);
+            FILE *fp = fopen("d:\\aa.txt", "rb");
+            fread(p, 1, 1024*1024, fp);
+            printf("start=%d\r\n", time(NULL));
+            __int64 iMsgId=0;//-4133685980305555455LL;
+            CSQLResult rs(sqlconn);
+            for (int i = 0; i<1000;++i)
+            {
+                //sprintf(szBuf, "INSERT /*+APPEND*/ INTO MT_TASK NOLOGGING (\"UID\",PTMSGID,ECID,SENDSTATUS,RETFLAG,PKNUMBER,PKTOTAL,FEEFLAG,SENDLEVEL,SENDTIME,USERID,SPGATE,CPNO,PHONE,MESSAGE,TASKID,ERRORCODE)  SELECT 100144,%I64d,1,2,1,1,1,2,5,TO_DATE(NVL('2010-12-13 08:35:09',' '),'YYYY-MM-DD HH24:MI:SS'),NVL('pre001',' '),NVL('106579999',' '),NVL('001',' '),NVL('13709693168',' '),NVL('恭喜发财万事如意01恭喜发财万事如意02恭喜发财万事如意03恭喜发财万事如意04恭喜发财万事如意05恭喜发财万事如意06[pre001]',' '),0,NVL('',' ') FROM DUAL UNION SELECT 100144,%I64d,1,2,1,1,1,2,5,TO_DATE(NVL('2010-12-13 08:35:09',' '),'YYYY-MM-DD HH24:MI:SS'),NVL('pre001',' '),NVL('106579999',' '),NVL('001',' '),NVL('13709693168',' '),NVL('恭喜发财万事如意01恭喜发财万事如意02恭喜发财万事如意03恭喜发财万事如意04恭喜发财万事如意05恭喜发财万事如意06[pre001]',' '),0,NVL('',' ') FROM DUAL",iMsgId+i,iMsgId+i+1);
+                rs.Query(p, SQLSTRTYPE_NORMAL, false);
+                //memset(p, 0, 1024*1024);
+            }
+            printf("end=%d\r\n", time(NULL));
+        }
+    }
+    catch (CSQLException e)
+    {
+        printf("%s,%s", e.ErrorMessage(), e.Description());
+        //CLogMgr::GetInstance().WriteLog(e.Description());
+    }
+
+    getchar();
+    return 0;
+}
+
+

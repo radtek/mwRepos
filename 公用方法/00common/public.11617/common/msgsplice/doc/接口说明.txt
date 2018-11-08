@@ -1,0 +1,48 @@
+一、接口库功能：
+1、对加入的信息块根据特征信息进行混存和拼接，超时或者拼接成功后进行回调，客户回调函数原型如下：
+2、void CallBack(void* Invoke, int ErrCode, const char* UserId, const char* Spno,const char* Phone,const char* Msg, int MsgFmt, int MsgLen, int PkTotal, int PkNumber, int PkSeqId );
+	参数[Invoke]: 客户调用初始化接口时的入参；
+	参数[ErrCode]:拼接处理结果，0=成功，1=等待超时，886=接口反初始化
+	参数[UserId]: 信息块对应的帐号，拼接成功时时为首个信息块对应帐号
+	参数[Spno]:	端口[分组依据]
+	参数[Phone]: 号码[分组依据]
+	参数[Msg]:	信息内容
+	参数[MsgFmt]: 信息格式
+	参数[MsgLen]:信息长度[字节]
+	参数[PkTotal]: 分组总块数
+	参数[PkNumber]: 分组当前块数,拼接成功时等于PkTotal
+	参数[PkSeqId]:	分组编号
+二、接口级说明：
+1、初始化接口:
+	int InitSpliceMgr(void* pCallBack, void* pInvoke,  int Reserve1, int Reserve2, int Reserve3 );
+	入参[pCallBack]:  回调函数指针，原型为见一;
+	入参[pInvoke]: 附加参数，回调时
+	入参[Reserve1]:保留参数
+	入参[Reserve2]:保留参数
+	入参[Reserve3]:保留参数
+	返回值：0=成功  ~0=失败[pCallBack不能为null]
+
+2、添加信息块接口：
+	int AddToSpliceMgr( const char* User, const char* Spno,const char* Phone,const char* Msg, int MsgFmt, int MsgLen, int PkTotal, int PkNumber, int PkSeqId, int  TimeOut );
+	入参[UserId]: 帐号，不能为null
+	入参[Spno]:	端口[分组依据],不能为null
+	入参[Phone]: 号码[分组依据],不能为null
+	入参[Msg]:	信息内容, MsgLen<=1 
+	入参[MsgFmt]: 信息格式
+	入参[MsgLen]:信息长度[字节]
+	入参[PkTotal]: 分组总块数(PkNumber>=1 )
+	入参[PkNumber]: 分组当前块数( PkNumber >=1 && PkNumber <=PkTotal )
+	入参[PkSeqId]:	分组编号
+	入参[TimeOut]:	拼接超时时间[秒]，(TimeOut>=1)
+	返回值：0=成功 1=参数错误  2=未初始化 3=接口已经退出 4=PkNumber重复
+
+3、反初始化接口:
+void UinitSpliceMgr();
+
+
+三、版本历史说明：
+1、Windows下接口库[MsgSplice.dll,MsgSplicelib],Linux下接口库[MsgSplice.so,MsgSplice.a];
+2、2011-09-01 Ver：1.0.0.1 ：首次发布;
+3、2011-09-06 Ver：1.0.1.1 ：增加WINDOWS下静态库工程及编译选项版本；
+4、2012-06-21 Ver：1.0.2.3 ：解决线程结束后部分资源不能释放的BUG(更新public、common)；
+5、2013-04-23 Ver: 1.0.4.6 ：兼容超长短信拼接

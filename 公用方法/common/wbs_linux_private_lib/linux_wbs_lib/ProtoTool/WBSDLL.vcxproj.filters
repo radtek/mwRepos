@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="rapidjson">
+      <UniqueIdentifier>{585a96f1-7e6b-4526-8d6d-ab4f76f5551a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00common">
+      <UniqueIdentifier>{86d22881-0e53-4a33-b442-4a579c78a44c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{6c4f7405-72e7-4b4d-86be-947fa44a6132}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\00common\public\include\rapidjson\document.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\00common\public\common\adapter\Adapter.h">
+      <Filter>00common</Filter>
+    </ClInclude>
+    <ClInclude Include="CParseToolImpl.h" />
+    <ClInclude Include="WBSDLL.h" />
+    <ClInclude Include="..\..\..\common\tools\cJSON.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\tools\HashAlgo.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\tools\JsonParse.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\tools\MW_Time.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\tools\XMLParse.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="PushHelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\00common\public\common\adapter\Adapter.cpp">
+      <Filter>00common</Filter>
+    </ClCompile>
+    <ClCompile Include="CParseToolImpl.cpp" />
+    <ClCompile Include="WBSDLL.cpp" />
+    <ClCompile Include="..\..\..\common\tools\cJSON.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\tools\hashAlgo.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\tools\hashTest.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\tools\JsonParse.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\tools\MW_Time.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\tools\XMLParse.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="PushHelper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="makefile" />
+  </ItemGroup>
+</Project>

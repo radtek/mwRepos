@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "export_cpp_utility", "..\export\cpp_utility\export_cpp_utility.vcxproj", "{52FF8CD4-10D0-490F-9635-856472551ECB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0D668134-9698-4CAA-9937-7E8A3869328D} = {0D668134-9698-4CAA-9937-7E8A3869328D}
+		{C83CC963-6F8F-4748-A86F-3B4A4519E980} = {C83CC963-6F8F-4748-A86F-3B4A4519E980}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Utility公共", "01.Utility公共", "{AE8C1DDB-068B-4C5A-93F4-F26E8B5A11A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.EXE", "02.EXE", "{50E3BA8D-8AAA-4AFA-8652-92738E660DCB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "utility_jsoncpp", "..\utility\json\utility_jsoncpp.vcxproj", "{C83CC963-6F8F-4748-A86F-3B4A4519E980}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.其它", "00.其它", "{FC6422A8-A1F0-416B-81F2-A0B72FF43035}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "utility_common", "..\utility\common\utility_common.vcxproj", "{0D668134-9698-4CAA-9937-7E8A3869328D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52FF8CD4-10D0-490F-9635-856472551ECB}.Debug|x64.ActiveCfg = Debug|x64
+		{52FF8CD4-10D0-490F-9635-856472551ECB}.Debug|x64.Build.0 = Debug|x64
+		{52FF8CD4-10D0-490F-9635-856472551ECB}.Release|x64.ActiveCfg = Release|x64
+		{52FF8CD4-10D0-490F-9635-856472551ECB}.Release|x64.Build.0 = Release|x64
+		{C83CC963-6F8F-4748-A86F-3B4A4519E980}.Debug|x64.ActiveCfg = Debug|x64
+		{C83CC963-6F8F-4748-A86F-3B4A4519E980}.Debug|x64.Build.0 = Debug|x64
+		{C83CC963-6F8F-4748-A86F-3B4A4519E980}.Release|x64.ActiveCfg = Release|x64
+		{C83CC963-6F8F-4748-A86F-3B4A4519E980}.Release|x64.Build.0 = Release|x64
+		{0D668134-9698-4CAA-9937-7E8A3869328D}.Debug|x64.ActiveCfg = Debug|x64
+		{0D668134-9698-4CAA-9937-7E8A3869328D}.Debug|x64.Build.0 = Debug|x64
+		{0D668134-9698-4CAA-9937-7E8A3869328D}.Release|x64.ActiveCfg = Release|x64
+		{0D668134-9698-4CAA-9937-7E8A3869328D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52FF8CD4-10D0-490F-9635-856472551ECB} = {AE8C1DDB-068B-4C5A-93F4-F26E8B5A11A6}
+		{C83CC963-6F8F-4748-A86F-3B4A4519E980} = {AE8C1DDB-068B-4C5A-93F4-F26E8B5A11A6}
+		{0D668134-9698-4CAA-9937-7E8A3869328D} = {AE8C1DDB-068B-4C5A-93F4-F26E8B5A11A6}
+	EndGlobalSection
+EndGlobal

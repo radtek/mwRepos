@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\adapter">
+      <UniqueIdentifier>{f2317d19-edba-412a-90a9-3546d12385ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\adapter">
+      <UniqueIdentifier>{6fd7bd9e-d096-47de-9048-0a7a82099d42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\files">
+      <UniqueIdentifier>{bcc20b62-797d-434d-b2b5-d554cd178380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\files">
+      <UniqueIdentifier>{4bbc8789-bcd9-485f-90b2-bb905c2cece8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\code">
+      <UniqueIdentifier>{639a030e-c823-4c71-aa45-0e4bd841dac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code">
+      <UniqueIdentifier>{c02bd865-0199-4b1f-9373-29cb109aa5f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\zip">
+      <UniqueIdentifier>{1be64b4b-07f5-4d01-8225-32360ea72475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\zip">
+      <UniqueIdentifier>{7648710d-9c50-4eb7-9b27-a3af9e104fb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\encry">
+      <UniqueIdentifier>{efb4a9b4-2735-4358-b662-8ac4021cfc72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\encry">
+      <UniqueIdentifier>{876fe81d-6c62-4d1e-8414-32ed03f3325e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\mwinclude\utility\common\export.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\mwcorepch.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\dstring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\adapter\Adapter.h">
+      <Filter>头文件\adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\adapter\CompatibleEvent.h">
+      <Filter>头文件\adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\adapter\CompatibleThread.h">
+      <Filter>头文件\adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\FindFile.h">
+      <Filter>头文件\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\FileOperEx.h">
+      <Filter>头文件\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\charset_code.h">
+      <Filter>头文件\code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\cmulitmap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\process_stat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\pthread_cond_t_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\SafeLock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\smartptr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\DerivedLock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\DoubleListEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\eatool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\GetMem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\Global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\LockBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\MemList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\MemListEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\MemPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\MThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\mwcore_export.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\CompressStr.h">
+      <Filter>头文件\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\Encrypt.h">
+      <Filter>头文件\encry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\md5.h">
+      <Filter>头文件\encry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\UTF-8.h">
+      <Filter>头文件\code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mwinclude\utility\common\iconv.h">
+      <Filter>头文件\code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\mwinclude\utility\common\mwcorepch.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dstring.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="adapter\Adapter.cpp">
+      <Filter>源文件\adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="adapter\CompatibleEvent.cpp">
+      <Filter>源文件\adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="adapter\CompatibleThread.cpp">
+      <Filter>源文件\adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="FindFile.cpp">
+      <Filter>源文件\files</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivedLock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleListEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="eatool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LockBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="process_stat_linux.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="process_stat_win.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_cond_t_ex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SafeLock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="charset_code.cpp">
+      <Filter>源文件\code</Filter>
+    </ClCompile>
+    <ClCompile Include="CompressStr.cpp">
+      <Filter>源文件\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>源文件\encry</Filter>
+    </ClCompile>
+    <ClCompile Include="Encrypt.cpp">
+      <Filter>源文件\encry</Filter>
+    </ClCompile>
+    <ClCompile Include="UTF-8.cpp">
+      <Filter>源文件\code</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

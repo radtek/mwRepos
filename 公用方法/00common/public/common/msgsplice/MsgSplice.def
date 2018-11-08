@@ -1,0 +1,12 @@
+; MsgSplice.def : Declares the module parameters for the DLL.
+
+LIBRARY      "MsgSplice"
+DESCRIPTION  'MsgSplice Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+
+InitSpliceMgr		@1
+AddToSpliceMgr     @2
+UinitSpliceMgr         @3
+ 

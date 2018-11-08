@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0D668134-9698-4CAA-9937-7E8A3869328D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>utility_common</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>../../win32/$(Configuration)/bin\</OutDir>
+    <IntDir>../../win32/$(Configuration)/tmp/$(projectName)\</IntDir>
+    <TargetName>$(ProjectName)d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>../../x64/$(Configuration)/bin\</OutDir>
+    <IntDir>../../x64/$(Configuration)/tmp/$(projectName)\</IntDir>
+    <TargetName>$(ProjectName)64d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>../../x64/$(Configuration)/bin\</OutDir>
+    <IntDir>../../x64/$(Configuration)/tmp/$(projectName)\</IntDir>
+    <TargetName>$(ProjectName)64</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;UTILITY_BUILD_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile>../../win32/$(Configuration)/tmp/$(projectName)\</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>../../win32/$(Configuration)/tmp/$(projectName)\</AssemblerListingLocation>
+      <ObjectFileName>../../win32/$(Configuration)/tmp/$(projectName)\</ObjectFileName>
+      <ProgramDataBaseFileName>../../win32/$(Configuration)/tmp/$(projectName)\</ProgramDataBaseFileName>
+      <XMLDocumentationFileName>../../win32/$(Configuration)/tmp/$(projectName)\</XMLDocumentationFileName>
+      <BrowseInformationFile>../../win32/$(Configuration)/tmp/$(projectName)\</BrowseInformationFile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)/../mwinclude/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>utility/common/mwcorepch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <OutputFile>../../lib/$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalDependencies>LogMgr.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../lib</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;UTILITY_BUILD_DLL;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)/../mwinclude/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>utility/common/mwcorepch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>../../x64/$(Configuration)/tmp/$(projectName)\</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>../../x64/$(Configuration)/tmp/$(projectName)\</AssemblerListingLocation>
+      <ObjectFileName>../../x64/$(Configuration)/tmp/$(projectName)\</ObjectFileName>
+      <ProgramDataBaseFileName>../../x64/$(Configuration)/tmp/$(projectName)\</ProgramDataBaseFileName>
+      <XMLDocumentationFileName>../../x64/$(Configuration)/tmp/$(projectName)\</XMLDocumentationFileName>
+      <BrowseInformationFile>../../x64/$(Configuration)/tmp/$(projectName)\</BrowseInformationFile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib />
+    <Lib>
+      <OutputFile>../../lib/$(TargetName)$(TargetExt)</OutputFile>
+      <ErrorReporting>
+      </ErrorReporting>
+      <AdditionalDependencies>zlib64.lib;libiconv.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../lib</AdditionalLibraryDirectories>
+    </Lib>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;UTILITY_BUILD_DLL;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)/../mwinclude/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderOutputFile>../../x64/$(Configuration)/tmp/$(projectName)\</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>../../x64/$(Configuration)/tmp/$(projectName)\</AssemblerListingLocation>
+      <ObjectFileName>../../x64/$(Configuration)/tmp/$(projectName)\</ObjectFileName>
+      <ProgramDataBaseFileName>../../x64/$(Configuration)/tmp/$(projectName)\</ProgramDataBaseFileName>
+      <XMLDocumentationFileName>../../x64/$(Configuration)/tmp/$(projectName)\</XMLDocumentationFileName>
+      <BrowseInformationFile>../../x64/$(Configuration)/tmp/$(projectName)\</BrowseInformationFile>
+      <PrecompiledHeaderFile>utility/common/mwcorepch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib />
+    <Lib>
+      <OutputFile>../../lib/$(TargetName).lib</OutputFile>
+      <AdditionalDependencies>LogMgr64.lib;libiconv.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../lib</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\mwinclude\utility\common\mwcorepch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="adapter\Adapter.cpp" />
+    <ClCompile Include="adapter\CompatibleEvent.cpp" />
+    <ClCompile Include="adapter\CompatibleThread.cpp" />
+    <ClCompile Include="charset_code.cpp" />
+    <ClCompile Include="CompressStr.cpp" />
+    <ClCompile Include="DerivedLock.cpp" />
+    <ClCompile Include="DoubleListEx.cpp" />
+    <ClCompile Include="dstring.cpp" />
+    <ClCompile Include="eatool.cpp" />
+    <ClCompile Include="Encrypt.cpp" />
+    <ClCompile Include="FindFile.cpp" />
+    <ClCompile Include="Global.cpp" />
+    <ClCompile Include="LockBase.cpp" />
+    <ClCompile Include="md5.cpp" />
+    <ClCompile Include="MThread.cpp" />
+    <ClCompile Include="process_stat_linux.cpp" />
+    <ClCompile Include="process_stat_win.cpp" />
+    <ClCompile Include="pthread_cond_t_ex.cpp" />
+    <ClCompile Include="SafeLock.cpp" />
+    <ClCompile Include="UTF-8.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\mwinclude\utility\common\adapter\Adapter.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\adapter\CompatibleEvent.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\adapter\CompatibleThread.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\charset_code.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\cmulitmap.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\CompressStr.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\DerivedLock.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\DoubleListEx.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\dstring.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\eatool.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\Encrypt.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\FileOperEx.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\FindFile.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\GetMem.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\Global.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\iconv.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\LockBase.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\md5.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\MemList.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\MemListEx.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\MemPool.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\MThread.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\mwcorepch.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\export.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\mwcore_export.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\process_stat.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\pthread_cond_t_ex.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\SafeLock.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\smartptr.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\types.h" />
+    <ClInclude Include="..\..\mwinclude\utility\common\UTF-8.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

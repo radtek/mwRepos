@@ -1,0 +1,8 @@
+﻿1.单个组件编译参数:./make.sh [编译组件名称] [编译类型] [工程名称]
+    组件名称: 对应makes_dir目录下的make_*.sh名称文件(例如./make.sh utility xxx xxx, 将会编译make_utility.sh的组件)
+    编译类型: 目前有:debug  release   clean三种
+    工程名称: 用于指定生成目录用的,当该文件夹不存在时,将自动新建该文件夹,并且将basefile_dir目录下的文件拷贝到该目录下
+
+2.注意事项
+  1) 在第一次或clean后编译,首先会产生头文件依赖关系,需要一定的时间
+  2) debug和release版本生成的目录是相同的

@@ -1,0 +1,9 @@
+; MobiAreaQry.def : Declares the module parameters for the DLL.
+
+LIBRARY      "MobiAreaQry"
+DESCRIPTION  'MobiAreaQry Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+
+ GetMobiArea        @1 

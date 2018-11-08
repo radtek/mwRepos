@@ -1,0 +1,629 @@
+The target system is: Linux -  - 
+The host system is: Windows - 10.0.16299 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/install/gcc/bin/arm-linux-gnueabihf-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/3.12.0/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/install/gcc/bin/arm-linux-gnueabihf-g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/3.12.0/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/install/gcc/bin/make.exe" "cmTC_a1828/fast"
+D:/install/gcc/bin/make.exe -f CMakeFiles/cmTC_a1828.dir/build.make CMakeFiles/cmTC_a1828.dir/build
+make.exe[1]: Entering directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1828.dir/testCCompiler.c.o
+D:/install/gcc/bin/arm-linux-gnueabihf-gcc.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot    -o CMakeFiles/cmTC_a1828.dir/testCCompiler.c.o   -c E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_a1828
+D:/install/gcc/bin/arm-linux-gnueabihf-gcc.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot      -rdynamic "CMakeFiles/cmTC_a1828.dir/testCCompiler.c.o"   -o cmTC_a1828 
+make.exe[1]: Leaving directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/install/gcc/bin/make.exe" "cmTC_31d20/fast"
+D:/install/gcc/bin/make.exe -f CMakeFiles/cmTC_31d20.dir/build.make CMakeFiles/cmTC_31d20.dir/build
+make.exe[1]: Entering directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31d20.dir/CMakeCCompilerABI.c.o
+D:/install/gcc/bin/arm-linux-gnueabihf-gcc.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot    -o CMakeFiles/cmTC_31d20.dir/CMakeCCompilerABI.c.o   -c C:/Users/dell/AppData/Local/VisualGDB/CMake/share/cmake-3.12/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_31d20
+D:/install/gcc/bin/arm-linux-gnueabihf-gcc.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot     -v -rdynamic "CMakeFiles/cmTC_31d20.dir/CMakeCCompilerABI.c.o"   -o cmTC_31d20 
+Using built-in specs.
+COLLECT_GCC=D:/install/gcc/bin/arm-linux-gnueabihf-gcc.exe
+COLLECT_LTO_WRAPPER=d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/lto-wrapper.exe
+Target: arm-linux-gnueabihf
+Configured with: ../../gcc-6-6.3.0/src/configure -v --with-pkgversion='Debian 6.3.0-18' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,c++ --enable-shared --enable-linker-build-id --without-included-gettext --enable-threads=posix --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-gtk-cairo --with-arch-directory=arm --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-sjlj-exceptions --with-arch=armv7-a --with-fpu=vfpv3-d16 --with-mode=thumb --with-float=hard --enable-checking=release --target=arm-linux-gnueabihf --host=i686-w64-mingw32 --prefix /q/gnu/beaglebone/out/ --with-sysroot=/q/gnu/beaglebone/out/arm-linux-gnueabihf/sysroot
+Thread model: posix
+gcc version 6.3.0 20170516 (Debian 6.3.0-18) 
+COMPILER_PATH=d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/;d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/;d:/install/gcc/bin/../libexec/gcc/;d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/;d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/;d:/install/gcc/bin/../lib/gcc/;d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/;D:/install/gcc/arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/;D:/install/gcc/arm-linux-gnueabihf/sysroot/lib/;D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/;D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_31d20' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/collect2.exe -plugin d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/liblto_plugin-0.dll -plugin-opt=d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\dell\AppData\Local\Temp\ccf6qECe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -pie -o cmTC_31d20 D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/Scrt1.o D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/crti.o d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/crtbeginS.o -Ld:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6 -Ld:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf -Ld:/install/gcc/bin/../lib/gcc -Ld:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib -LD:/install/gcc/arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf -LD:/install/gcc/arm-linux-gnueabihf/sysroot/lib -LD:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf -LD:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_31d20.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/crtendS.o D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_31d20' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+make.exe[1]: Leaving directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"D:/install/gcc/bin/make.exe" "cmTC_31d20/fast"]
+  ignore line: [D:/install/gcc/bin/make.exe -f CMakeFiles/cmTC_31d20.dir/build.make CMakeFiles/cmTC_31d20.dir/build]
+  ignore line: [make.exe[1]: Entering directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_31d20.dir/CMakeCCompilerABI.c.o]
+  ignore line: [D:/install/gcc/bin/arm-linux-gnueabihf-gcc.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot    -o CMakeFiles/cmTC_31d20.dir/CMakeCCompilerABI.c.o   -c C:/Users/dell/AppData/Local/VisualGDB/CMake/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_31d20]
+  ignore line: [D:/install/gcc/bin/arm-linux-gnueabihf-gcc.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot     -v -rdynamic "CMakeFiles/cmTC_31d20.dir/CMakeCCompilerABI.c.o"   -o cmTC_31d20 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:/install/gcc/bin/arm-linux-gnueabihf-gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/lto-wrapper.exe]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../../gcc-6-6.3.0/src/configure -v --with-pkgversion='Debian 6.3.0-18' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,c++ --enable-shared --enable-linker-build-id --without-included-gettext --enable-threads=posix --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-gtk-cairo --with-arch-directory=arm --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-sjlj-exceptions --with-arch=armv7-a --with-fpu=vfpv3-d16 --with-mode=thumb --with-float=hard --enable-checking=release --target=arm-linux-gnueabihf --host=i686-w64-mingw32 --prefix /q/gnu/beaglebone/out/ --with-sysroot=/q/gnu/beaglebone/out/arm-linux-gnueabihf/sysroot]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 20170516 (Debian 6.3.0-18) ]
+  ignore line: [COMPILER_PATH=d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/]
+  ignore line: [d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/]
+  ignore line: [d:/install/gcc/bin/../libexec/gcc/]
+  ignore line: [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/]
+  ignore line: [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/]
+  ignore line: [d:/install/gcc/bin/../lib/gcc/]
+  ignore line: [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/]
+  ignore line: [D:/install/gcc/arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/]
+  ignore line: [D:/install/gcc/arm-linux-gnueabihf/sysroot/lib/]
+  ignore line: [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/]
+  ignore line: [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_31d20' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/collect2.exe -plugin d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/liblto_plugin-0.dll -plugin-opt=d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\dell\AppData\Local\Temp\ccf6qECe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -pie -o cmTC_31d20 D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/Scrt1.o D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/crti.o d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/crtbeginS.o -Ld:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6 -Ld:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf -Ld:/install/gcc/bin/../lib/gcc -Ld:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib -LD:/install/gcc/arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf -LD:/install/gcc/arm-linux-gnueabihf/sysroot/lib -LD:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf -LD:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_31d20.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/crtendS.o D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/crtn.o]
+    arg [d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\dell\AppData\Local\Temp\ccf6qECe.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_31d20] ==> ignore
+    arg [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/Scrt1.o] ==> ignore
+    arg [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/crtbeginS.o] ==> ignore
+    arg [-Ld:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6] ==> dir [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6]
+    arg [-Ld:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf]
+    arg [-Ld:/install/gcc/bin/../lib/gcc] ==> dir [d:/install/gcc/bin/../lib/gcc]
+    arg [-Ld:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib] ==> dir [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib]
+    arg [-LD:/install/gcc/arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf] ==> dir [D:/install/gcc/arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf]
+    arg [-LD:/install/gcc/arm-linux-gnueabihf/sysroot/lib] ==> dir [D:/install/gcc/arm-linux-gnueabihf/sysroot/lib]
+    arg [-LD:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf] ==> dir [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf]
+    arg [-LD:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib] ==> dir [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_31d20.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/crtendS.o] ==> ignore
+    arg [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/crtn.o] ==> ignore
+  collapse library dir [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6] ==> [D:/install/gcc/lib/gcc/arm-linux-gnueabihf/6]
+  collapse library dir [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf] ==> [D:/install/gcc/lib/gcc/arm-linux-gnueabihf]
+  collapse library dir [d:/install/gcc/bin/../lib/gcc] ==> [D:/install/gcc/lib/gcc]
+  collapse library dir [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib] ==> [D:/install/gcc/arm-linux-gnueabihf/lib]
+  collapse library dir [D:/install/gcc/arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf] ==> [D:/install/gcc/arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf]
+  collapse library dir [D:/install/gcc/arm-linux-gnueabihf/sysroot/lib] ==> [D:/install/gcc/arm-linux-gnueabihf/sysroot/lib]
+  collapse library dir [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf] ==> [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib] ==> [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [D:/install/gcc/lib/gcc/arm-linux-gnueabihf/6;D:/install/gcc/lib/gcc/arm-linux-gnueabihf;D:/install/gcc/lib/gcc;D:/install/gcc/arm-linux-gnueabihf/lib;D:/install/gcc/arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf;D:/install/gcc/arm-linux-gnueabihf/sysroot/lib;D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf;D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/install/gcc/bin/make.exe" "cmTC_07368/fast"
+D:/install/gcc/bin/make.exe -f CMakeFiles/cmTC_07368.dir/build.make CMakeFiles/cmTC_07368.dir/build
+make.exe[1]: Entering directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07368.dir/feature_tests.c.o
+D:/install/gcc/bin/arm-linux-gnueabihf-gcc.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot   -std=c11 -o CMakeFiles/cmTC_07368.dir/feature_tests.c.o   -c E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_07368
+D:/install/gcc/bin/arm-linux-gnueabihf-gcc.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot      -rdynamic "CMakeFiles/cmTC_07368.dir/feature_tests.c.o"   -o cmTC_07368 
+make.exe[1]: Leaving directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/install/gcc/bin/make.exe" "cmTC_8ae87/fast"
+D:/install/gcc/bin/make.exe -f CMakeFiles/cmTC_8ae87.dir/build.make CMakeFiles/cmTC_8ae87.dir/build
+make.exe[1]: Entering directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ae87.dir/feature_tests.c.o
+D:/install/gcc/bin/arm-linux-gnueabihf-gcc.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot   -std=c99 -o CMakeFiles/cmTC_8ae87.dir/feature_tests.c.o   -c E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8ae87
+D:/install/gcc/bin/arm-linux-gnueabihf-gcc.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot      -rdynamic "CMakeFiles/cmTC_8ae87.dir/feature_tests.c.o"   -o cmTC_8ae87 
+make.exe[1]: Leaving directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/install/gcc/bin/make.exe" "cmTC_6b8eb/fast"
+D:/install/gcc/bin/make.exe -f CMakeFiles/cmTC_6b8eb.dir/build.make CMakeFiles/cmTC_6b8eb.dir/build
+make.exe[1]: Entering directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6b8eb.dir/feature_tests.c.o
+D:/install/gcc/bin/arm-linux-gnueabihf-gcc.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot   -std=c90 -o CMakeFiles/cmTC_6b8eb.dir/feature_tests.c.o   -c E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6b8eb
+D:/install/gcc/bin/arm-linux-gnueabihf-gcc.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot      -rdynamic "CMakeFiles/cmTC_6b8eb.dir/feature_tests.c.o"   -o cmTC_6b8eb 
+make.exe[1]: Leaving directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/install/gcc/bin/make.exe" "cmTC_076fa/fast"
+D:/install/gcc/bin/make.exe -f CMakeFiles/cmTC_076fa.dir/build.make CMakeFiles/cmTC_076fa.dir/build
+make.exe[1]: Entering directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_076fa.dir/testCXXCompiler.cxx.o
+D:/install/gcc/bin/arm-linux-gnueabihf-g++.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot     -o CMakeFiles/cmTC_076fa.dir/testCXXCompiler.cxx.o -c E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_076fa
+D:/install/gcc/bin/arm-linux-gnueabihf-g++.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot       -rdynamic "CMakeFiles/cmTC_076fa.dir/testCXXCompiler.cxx.o"   -o cmTC_076fa 
+make.exe[1]: Leaving directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/install/gcc/bin/make.exe" "cmTC_9fe1f/fast"
+D:/install/gcc/bin/make.exe -f CMakeFiles/cmTC_9fe1f.dir/build.make CMakeFiles/cmTC_9fe1f.dir/build
+make.exe[1]: Entering directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9fe1f.dir/CMakeCXXCompilerABI.cpp.o
+D:/install/gcc/bin/arm-linux-gnueabihf-g++.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot     -o CMakeFiles/cmTC_9fe1f.dir/CMakeCXXCompilerABI.cpp.o -c C:/Users/dell/AppData/Local/VisualGDB/CMake/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_9fe1f
+D:/install/gcc/bin/arm-linux-gnueabihf-g++.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot      -v -rdynamic "CMakeFiles/cmTC_9fe1f.dir/CMakeCXXCompilerABI.cpp.o"   -o cmTC_9fe1f 
+Using built-in specs.
+COLLECT_GCC=D:/install/gcc/bin/arm-linux-gnueabihf-g++.exe
+COLLECT_LTO_WRAPPER=d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/lto-wrapper.exe
+Target: arm-linux-gnueabihf
+Configured with: ../../gcc-6-6.3.0/src/configure -v --with-pkgversion='Debian 6.3.0-18' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,c++ --enable-shared --enable-linker-build-id --without-included-gettext --enable-threads=posix --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-gtk-cairo --with-arch-directory=arm --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-sjlj-exceptions --with-arch=armv7-a --with-fpu=vfpv3-d16 --with-mode=thumb --with-float=hard --enable-checking=release --target=arm-linux-gnueabihf --host=i686-w64-mingw32 --prefix /q/gnu/beaglebone/out/ --with-sysroot=/q/gnu/beaglebone/out/arm-linux-gnueabihf/sysroot
+Thread model: posix
+gcc version 6.3.0 20170516 (Debian 6.3.0-18) 
+COMPILER_PATH=d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/;d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/;d:/install/gcc/bin/../libexec/gcc/;d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/;d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/;d:/install/gcc/bin/../lib/gcc/;d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/;D:/install/gcc/arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/;D:/install/gcc/arm-linux-gnueabihf/sysroot/lib/;D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/;D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9fe1f' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/collect2.exe -plugin d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/liblto_plugin-0.dll -plugin-opt=d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\dell\AppData\Local\Temp\ccX6kuqv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -pie -o cmTC_9fe1f D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/Scrt1.o D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/crti.o d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/crtbeginS.o -Ld:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6 -Ld:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf -Ld:/install/gcc/bin/../lib/gcc -Ld:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib -LD:/install/gcc/arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf -LD:/install/gcc/arm-linux-gnueabihf/sysroot/lib -LD:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf -LD:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_9fe1f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/crtendS.o D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9fe1f' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+make.exe[1]: Leaving directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"D:/install/gcc/bin/make.exe" "cmTC_9fe1f/fast"]
+  ignore line: [D:/install/gcc/bin/make.exe -f CMakeFiles/cmTC_9fe1f.dir/build.make CMakeFiles/cmTC_9fe1f.dir/build]
+  ignore line: [make.exe[1]: Entering directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_9fe1f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [D:/install/gcc/bin/arm-linux-gnueabihf-g++.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot     -o CMakeFiles/cmTC_9fe1f.dir/CMakeCXXCompilerABI.cpp.o -c C:/Users/dell/AppData/Local/VisualGDB/CMake/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_9fe1f]
+  ignore line: [D:/install/gcc/bin/arm-linux-gnueabihf-g++.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot      -v -rdynamic "CMakeFiles/cmTC_9fe1f.dir/CMakeCXXCompilerABI.cpp.o"   -o cmTC_9fe1f ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:/install/gcc/bin/arm-linux-gnueabihf-g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/lto-wrapper.exe]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../../gcc-6-6.3.0/src/configure -v --with-pkgversion='Debian 6.3.0-18' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,c++ --enable-shared --enable-linker-build-id --without-included-gettext --enable-threads=posix --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-gtk-cairo --with-arch-directory=arm --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-sjlj-exceptions --with-arch=armv7-a --with-fpu=vfpv3-d16 --with-mode=thumb --with-float=hard --enable-checking=release --target=arm-linux-gnueabihf --host=i686-w64-mingw32 --prefix /q/gnu/beaglebone/out/ --with-sysroot=/q/gnu/beaglebone/out/arm-linux-gnueabihf/sysroot]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 20170516 (Debian 6.3.0-18) ]
+  ignore line: [COMPILER_PATH=d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/]
+  ignore line: [d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/]
+  ignore line: [d:/install/gcc/bin/../libexec/gcc/]
+  ignore line: [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/]
+  ignore line: [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/]
+  ignore line: [d:/install/gcc/bin/../lib/gcc/]
+  ignore line: [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/]
+  ignore line: [D:/install/gcc/arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/]
+  ignore line: [D:/install/gcc/arm-linux-gnueabihf/sysroot/lib/]
+  ignore line: [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/]
+  ignore line: [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9fe1f' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/collect2.exe -plugin d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/liblto_plugin-0.dll -plugin-opt=d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\dell\AppData\Local\Temp\ccX6kuqv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -pie -o cmTC_9fe1f D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/Scrt1.o D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/crti.o d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/crtbeginS.o -Ld:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6 -Ld:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf -Ld:/install/gcc/bin/../lib/gcc -Ld:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib -LD:/install/gcc/arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf -LD:/install/gcc/arm-linux-gnueabihf/sysroot/lib -LD:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf -LD:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_9fe1f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/crtendS.o D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/crtn.o]
+    arg [d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=d:/install/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/6/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\dell\AppData\Local\Temp\ccX6kuqv.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9fe1f] ==> ignore
+    arg [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/Scrt1.o] ==> ignore
+    arg [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/crtbeginS.o] ==> ignore
+    arg [-Ld:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6] ==> dir [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6]
+    arg [-Ld:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf]
+    arg [-Ld:/install/gcc/bin/../lib/gcc] ==> dir [d:/install/gcc/bin/../lib/gcc]
+    arg [-Ld:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib] ==> dir [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib]
+    arg [-LD:/install/gcc/arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf] ==> dir [D:/install/gcc/arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf]
+    arg [-LD:/install/gcc/arm-linux-gnueabihf/sysroot/lib] ==> dir [D:/install/gcc/arm-linux-gnueabihf/sysroot/lib]
+    arg [-LD:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf] ==> dir [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf]
+    arg [-LD:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib] ==> dir [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_9fe1f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/crtendS.o] ==> ignore
+    arg [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/crtn.o] ==> ignore
+  collapse library dir [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6] ==> [D:/install/gcc/lib/gcc/arm-linux-gnueabihf/6]
+  collapse library dir [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf] ==> [D:/install/gcc/lib/gcc/arm-linux-gnueabihf]
+  collapse library dir [d:/install/gcc/bin/../lib/gcc] ==> [D:/install/gcc/lib/gcc]
+  collapse library dir [d:/install/gcc/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib] ==> [D:/install/gcc/arm-linux-gnueabihf/lib]
+  collapse library dir [D:/install/gcc/arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf] ==> [D:/install/gcc/arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf]
+  collapse library dir [D:/install/gcc/arm-linux-gnueabihf/sysroot/lib] ==> [D:/install/gcc/arm-linux-gnueabihf/sysroot/lib]
+  collapse library dir [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf] ==> [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib] ==> [D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [D:/install/gcc/lib/gcc/arm-linux-gnueabihf/6;D:/install/gcc/lib/gcc/arm-linux-gnueabihf;D:/install/gcc/lib/gcc;D:/install/gcc/arm-linux-gnueabihf/lib;D:/install/gcc/arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf;D:/install/gcc/arm-linux-gnueabihf/sysroot/lib;D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf;D:/install/gcc/arm-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/install/gcc/bin/make.exe" "cmTC_2bf3a/fast"
+D:/install/gcc/bin/make.exe -f CMakeFiles/cmTC_2bf3a.dir/build.make CMakeFiles/cmTC_2bf3a.dir/build
+make.exe[1]: Entering directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2bf3a.dir/feature_tests.cxx.o
+D:/install/gcc/bin/arm-linux-gnueabihf-g++.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot    -std=c++1z -o CMakeFiles/cmTC_2bf3a.dir/feature_tests.cxx.o -c E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2bf3a
+D:/install/gcc/bin/arm-linux-gnueabihf-g++.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot       -rdynamic "CMakeFiles/cmTC_2bf3a.dir/feature_tests.cxx.o"   -o cmTC_2bf3a 
+make.exe[1]: Leaving directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/install/gcc/bin/make.exe" "cmTC_8bc5a/fast"
+D:/install/gcc/bin/make.exe -f CMakeFiles/cmTC_8bc5a.dir/build.make CMakeFiles/cmTC_8bc5a.dir/build
+make.exe[1]: Entering directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8bc5a.dir/feature_tests.cxx.o
+D:/install/gcc/bin/arm-linux-gnueabihf-g++.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot    -std=c++14 -o CMakeFiles/cmTC_8bc5a.dir/feature_tests.cxx.o -c E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8bc5a
+D:/install/gcc/bin/arm-linux-gnueabihf-g++.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot       -rdynamic "CMakeFiles/cmTC_8bc5a.dir/feature_tests.cxx.o"   -o cmTC_8bc5a 
+make.exe[1]: Leaving directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/install/gcc/bin/make.exe" "cmTC_60d1a/fast"
+D:/install/gcc/bin/make.exe -f CMakeFiles/cmTC_60d1a.dir/build.make CMakeFiles/cmTC_60d1a.dir/build
+make.exe[1]: Entering directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_60d1a.dir/feature_tests.cxx.o
+D:/install/gcc/bin/arm-linux-gnueabihf-g++.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot    -std=c++11 -o CMakeFiles/cmTC_60d1a.dir/feature_tests.cxx.o -c E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_60d1a
+D:/install/gcc/bin/arm-linux-gnueabihf-g++.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot       -rdynamic "CMakeFiles/cmTC_60d1a.dir/feature_tests.cxx.o"   -o cmTC_60d1a 
+make.exe[1]: Leaving directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/install/gcc/bin/make.exe" "cmTC_97387/fast"
+D:/install/gcc/bin/make.exe -f CMakeFiles/cmTC_97387.dir/build.make CMakeFiles/cmTC_97387.dir/build
+make.exe[1]: Entering directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_97387.dir/feature_tests.cxx.o
+D:/install/gcc/bin/arm-linux-gnueabihf-g++.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot    -std=c++98 -o CMakeFiles/cmTC_97387.dir/feature_tests.cxx.o -c E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_97387
+D:/install/gcc/bin/arm-linux-gnueabihf-g++.exe --sysroot=D:/install/gcc/arm-linux-gnueabihf/sysroot       -rdynamic "CMakeFiles/cmTC_97387.dir/feature_tests.cxx.o"   -o cmTC_97387 
+make.exe[1]: Leaving directory `E:/work/WEB_SERVICE/common/wbs_linux_private_lib/VisualGDB/Debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
